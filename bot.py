@@ -175,7 +175,7 @@ if __name__ == '__main__':
     conn.commit()
     conn.close()
 
-    application = Application.builder().token('YOUR_BOT_TOKEN').build()
+    application = Application.builder().token('7528969607:AAEvHC2aZmpqEA4LMF15gsC-wbVz4d2BL0c').build()
     
     application.add_handler(CommandHandler('start', start))
     application.add_handler(ConversationHandler(
